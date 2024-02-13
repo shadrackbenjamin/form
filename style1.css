@@ -1,0 +1,138 @@
+body {
+	background-color: #e3edfd;
+}
+
+.container {
+	display: flex;
+/*	height:60px;*/
+}
+
+.box-1 {
+	flex-basis: 25%;
+/*	height: 60px;*/
+
+	/* margin: 10px; */
+}
+
+.box-2 {
+	flex-basis: 50%;
+/*	height: 60px;*/
+
+	/* margin: 10px; */
+}
+
+.first-card {
+	/* background-color: white; */
+	display: block;
+
+
+}
+
+.first-card-content {
+	margin-top: 12px;
+	background-color: #fff;
+	border: 1px solid #dadce0;
+	border-radius: 8px;
+	margin-bottom: 12px;
+	padding: 24px;
+	padding-top: 22px;
+	position: relative;
+/*	height: 60px;*/
+}
+
+.first-card .top-design {
+	background-color: blue;
+	color: #fff;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	height: 10px;
+	/* padding-top: -1px; */
+	margin-top: -22px;
+	margin-left: -24px;
+	margin-right: -24px;
+	/* position: absolute; */
+	/* width: calc(100% +2px); */
+	/* display: block; */
+}
+
+hr {
+	margin-left: -24px;
+	margin-right: -24px;
+}
+.inside-line{
+	font-size: 15px;
+	border: none;
+	margin-top: 10px;
+	align-content: space-between;
+	display: flex;
+	justify-content: space-between;
+}
+
+span{
+	color: red;
+	text-align: left;
+	align-items: flex-start;
+}
+/*.main_con{*/
+/*	display: flex;*/
+/*	flex-direction: column;*/
+/*	background-color: #99ebff;*/
+/*	height: 150vh;*/
+/*	width: 100%;*/
+/*	justify-content: space-around;*/
+/*	align-items: center;*/
+}
+
+.email_con{
+	height: 100px;
+	width: 400px;
+	background-color: white;
+	border: 0.5px solid #4ddbff;
+	border-radius: 10px;
+	padding: 20px;
+}
+.info>input{
+	width: 400px;
+	padding-bottom: 5px;
+	border: 0;
+	border-bottom: 1.5px solid #e8e8e8;
+}
+.radio>input{
+	gap: 10em;
+	margin-right: 12px;
+	margin-top: 5px;
+	align-content: space-between;
+	padding: 0px 3em 0px 0px;
+/*	display: flex;*/
+/*	flex-direction: column;*/
+
+
+}
+.submit_con{
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	justify-content: space-between;
+}
+.submit_con>button{
+	background-color: blue;
+	border-radius: 7px;
+	color: white;
+	width: 80px;
+	height: 35px;
+	margin-top: 0;
+	border: none;
+}
+
+.progress_con{
+display: flex;
+justify-items: center;
+align-items: center;
+}
+
+.progress_bar{
+	height: 4px;
+	border-radius: 2px;
+	width: 150px;
+	background-color: green;
+}
